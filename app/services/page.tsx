@@ -1,0 +1,1 @@
+"use client"; import { AuthGuard } from "@/components/auth-guard"; import { ServicePage } from "@/components/service-page"; export default function Services() { return <AuthGuard><ServicePage /></AuthGuard>; }

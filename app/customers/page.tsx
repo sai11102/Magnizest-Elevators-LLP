@@ -1,0 +1,1 @@
+"use client"; import { AuthGuard } from "@/components/auth-guard"; import { CustomerPage } from "@/components/customer-page"; export default function Customers() { return <AuthGuard><CustomerPage /></AuthGuard>; }

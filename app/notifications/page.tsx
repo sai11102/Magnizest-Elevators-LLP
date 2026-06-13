@@ -1,0 +1,1 @@
+"use client"; import { AuthGuard } from "@/components/auth-guard"; import { NotificationPage } from "@/components/notification-page"; export default function Notifications() { return <AuthGuard><NotificationPage /></AuthGuard>; }

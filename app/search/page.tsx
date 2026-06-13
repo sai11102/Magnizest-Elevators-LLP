@@ -1,0 +1,1 @@
+"use client"; import { AuthGuard } from "@/components/auth-guard"; import { SearchPage } from "@/components/search-page"; export default function Search() { return <AuthGuard><SearchPage /></AuthGuard>; }
